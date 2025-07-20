@@ -27,4 +27,5 @@ def colorful_calendar(year):
         console.print(table)  
         console.print("\n")
 
-colorful_calendar(2025)
+year_input = int(input("Enter the year for the calendar: "))
+colorful_calendar(year_input)
